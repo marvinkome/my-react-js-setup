@@ -1,4 +1,4 @@
-import React from 'react';
-import 'materialize-css/dist/css/materialize.css';
+import React from 'react'
+import 'materialize-css/dist/css/materialize.css'
 
-export const App = () => <p>hello</p>;
+export const App = () => <p>hello</p>
