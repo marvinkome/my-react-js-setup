@@ -23,9 +23,8 @@ module.exports = {
     module: {
         rules: [
             { test: /\.jsx?$/, loader: 'babel-loader' },
-            // { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-            // { test: /\.less$/, loader: ['style-loader', 'css-loader', 'less-loader'] }
-            // { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' }
+            { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
+            { test: /\.less$/, loader: ['style-loader', 'css-loader', 'less-loader'] }
         ]
     },
     plugins: [
